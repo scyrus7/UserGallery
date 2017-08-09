@@ -1,5 +1,5 @@
 
-    I connected to Stackoverflow Users API Endpoint and retrieve the first page of data. 
+    I connected the App to Stackoverflow Users API Endpoint and retrieve the first page of data. 
 	The following functionalities has been implemented so far:
 	
     Display the retrieved data through a TableLayout.
