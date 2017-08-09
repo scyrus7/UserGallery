@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tablelayout_popup_user_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:background="@android:color/white"
+    android:isScrollContainer="true"
+    android:scrollbars="vertical"
+    android:stretchColumns="*">
+
+    <TableRow>
+
+        <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+                   android:id="@+id/fragment_user_gallery_image_view"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_gravity="center"
+                   android:scaleType="centerCrop"/>
+
+    </TableRow>
+
+    <TableRow
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:id="@+id/txtview_usrname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingBottom="5dip"
+            android:paddingTop="5dip"
+            android:text="User Name"
+            android:textSize="18sp"/>
+
+    </TableRow>
+
+    <TableRow
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <LinearLayout
+            android:id="@+id/linear_layout_badges"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/txtview_badges"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="3dip"
+                android:text="Badges"/>
+
+        </LinearLayout>
+    </TableRow>
+</TableLayout>
